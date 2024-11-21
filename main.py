@@ -34,7 +34,7 @@ def start_block(block_name):
 
 if __name__ == "__main__":
     # List of blocks to start
-    blocks = ["hello", "hallo"]
+    blocks = ["yt", "reddit week"]
     
     for block in blocks:
         start_block(block)
