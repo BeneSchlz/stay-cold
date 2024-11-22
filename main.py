@@ -13,7 +13,9 @@ def start_block(block_name):
         command = [
             "/Applications/Cold Turkey Blocker.app/Contents/MacOS/Cold Turkey Blocker",
             "-start",
-            block_name
+            block_name,
+            "-random-text",
+            "600"
         ]
         # Run the command
         subprocess.run(command, check=True, text=True, capture_output=True)
